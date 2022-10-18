@@ -217,6 +217,66 @@ img {
 .home__button:hover{
   box-shadow: 0 8px 48px hsla(203, 71%, 25%, .5);
 }
+
+.home__group{
+  position: relative;
+}
+
+.home__images,
+.home__data{
+  display: grid;
+}
+
+.home__images-eth{
+  width: 100px;
+  justify-self: center;
+}
+
+.home__data{
+  position: absolute;
+  top: -5rem;
+  right: 1.5rem;
+  row-gap: 1.25rem;
+}
+
+.home__data-number{
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+}
+
+.home__data-subtitle{
+  font-size: var(--smaller-font-size);
+}
+
+.home__footer,
+.home__footer-time{
+  display: flex;
+}
+
+.home__footer{
+  margin-top: 2.5rem;
+  column-gap: 3.5rem;
+}
+
+.home__footer-title,
+.home__footer-subtitle{
+  font-size: var(--smaller-font-size);
+  display: block;
+}
+
+.home__footer-title{
+  margin-bottom: .75rem;
+}
+
+.home__footer-number{
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: .25rem;
+}
+
+.home__footer-time{
+  column-gap: 1.25rem;
+}
 /* Shapes */
 
 
