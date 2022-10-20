@@ -368,7 +368,7 @@ img {
   }
 
   .home__img-eth{
-    width: 240px;
+    width: 200px;
 
   }
 
@@ -397,5 +397,19 @@ img {
   .home__description{
     margin-bottom: 3rem;
   }
+  .home__img-eth{
+    width: 500px;
+
+  }
   
+}
+
+@media screen and (min-width: 1048px) {
+  .container{
+    margin-inline: auto;
+  }
+  .home__img-eth{
+    width: 500px;
+
+  }
 }
